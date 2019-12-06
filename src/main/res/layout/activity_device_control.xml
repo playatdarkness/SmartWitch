@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeviceControl"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:text="DEFAULT"
+        android:gravity="bottom"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/status_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_switch_off"
+        android:layout_below="@id/device_name"
+        android:layout_marginTop="50dp"
+        android:scaleY="3"
+        android:scaleX="3"
+        android:layout_centerHorizontal="true"/>
+    <Switch
+        android:id="@+id/device_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:layout_below="@id/status_light"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/switch_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"
+        android:text="OFF"
+        android:textColor="@color/white"
+        android:layout_below="@id/device_switch"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

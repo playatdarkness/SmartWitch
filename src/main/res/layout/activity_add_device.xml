@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDevice"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Add Device"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Appliance Name : "
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+        <EditText
+            android:id="@+id/devicename"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP Address : "
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+        <EditText
+            android:id="@+id/deviceip"
+            android:layout_width="200dp"
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789."
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-smallcaps"/>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/savedevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:background="@drawable/roundbutton"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-smallcaps"/>
+
+</LinearLayout>
