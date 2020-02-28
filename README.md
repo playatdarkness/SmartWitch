@@ -1,8 +1,8 @@
 # SmartWitch
 
-<h2>This is a Home Automation Device with Android App support. Available for Orders<br>
-For Product Inquiry and Order<br> 
-  Contact:<a href="mailto:rahulwadhwa238@gmail.com">rahulwadhwa238@gmail.com</a></h2>
+<h2>This is a Home Automation Device with Android App support.</h2><h3> Available for Orders</h3><br>
+<h3>For Product Inquiry and Order<br> 
+  Contact:<a href="mailto:rahulwadhwa238@gmail.com">rahulwadhwa238@gmail.com</a></h3>
 <br>
 <br>
 <h3>Setting Up:</h3>
