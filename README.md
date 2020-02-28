@@ -1,4 +1,10 @@
 # SmartWitch
+
+<h2>This is a Home Automation Device with Android App support. Available for Orders<br>
+For Product Inquiry and Order<br> 
+  Contact:<a href="mailto:rahulwadhwa238@gmail.com">rahulwadhwa238@gmail.com</a></h2>
+<br>
+<br>
 <h3>Setting Up:</h3>
   <br>
   Using Arduino IDE upload the <a href="https://github.com/playatdarkness/SmartWitch/blob/master/smartSwitch.ino">smartSwitch.ino</a> file to a MicroController NodeMCU ESP8266.<br>
@@ -9,5 +15,5 @@
   Turn on the MicroController and connect its hotspot to your phone and set up your home wifi usid and password in it.<br>
   Now, using its IP Address, add it as a device in the Android App on your phone.<br>
   <br>
-  <b>And now you can control the controller with your device.</b>
+  <b>And now you can control the micro controller with your device.</b>
   
