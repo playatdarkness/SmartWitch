@@ -13,5 +13,5 @@
   Turn on the MicroController and connect its hotspot to your phone and set up your home wifi usid and password in it.<br>
   Now, using its IP Address, add it as a device in the Android App on your phone.<br>
   <br>
-  <b>And now you can control the micro controller with your device.</b>
+  <b>And now you can control the micro-controller with your app.</b>
   
